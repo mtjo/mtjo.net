@@ -1,0 +1,9 @@
+wb_937a8e3abd14da70.txt
+/data
+*.log
+/logreport
+/report
+*~
+.DS_Store
+.idea/*
+.gradle/*
