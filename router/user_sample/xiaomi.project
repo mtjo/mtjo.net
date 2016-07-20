@@ -1,0 +1,60 @@
+#请输入插件ID。
+plugin_id= "2882303761517311469";
+
+#请输入插件名称。
+name= "系统状态查看工具";
+
+#请输入插件介绍。
+introduction= "系统状态查看工具，查看实时系统状态";
+
+#请输入插件简介。
+summary= "系统状态查看工具";
+
+#已安装插件图标URL。
+installed_icon= "http://file.market.xiaomi.com/download/AppStore/0a53350de78635cb3faa094fbbacd440a4b4085bd";
+
+#插件详情图标URL。
+detail_image= "http://file.market.xiaomi.com/download/AppStore/07e325ef323c413e433a5b0c231952af99c43ffa2";
+
+#可安装插件图标URL。
+market_icon="http://file.market.xiaomi.com/download/AppStore/02b4185bcaea24f2c3e94c27d70d832ef221084c9";
+
+#开发者名称。
+developer= "机智的小名";
+
+#请输入插件版本号(格式：xx.xx.xx)。
+version= "1.0.0";
+
+#请输入插件控制页面url。
+control_url= "http://app.miwifi.com/taskwatcher/index.html";
+
+#请输入打包目录(如果插件没有可执行文件，可不用填写)。
+zip_path= "./build/";
+
+#请输入开发者证书文件路径。
+pem_path= "./key/23127938.pem";
+
+#请输入私钥文件路径。
+key_path= "./key/ca.key";
+
+#请输入sdk level。
+sdk_level= "3";
+
+#是否支持R1D
+supported_rom= "miwifi_rom_mini";
+
+#是否需要访问公共存储目录
+access_userdata= "true";
+
+access_proc = "true";
+
+#是否需要支持"下载"功能，此项为true才能够使用下载相关的sdk
+support_download= "true";
+
+support_vpn_operation= "false";
+
+#是否需要支持"已连接的设备信息"，此项为true才能够使用链接设备信息相关的sdk
+support_connected_device_info= "false"
+
+#是否需要支持"访问U盘"，此项为true才能够使用访问U盘相关的sdk
+support_usb_disk_mount= "false"
